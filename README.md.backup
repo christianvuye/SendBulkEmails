@@ -1,18 +1,13 @@
 # SendBulkEmails
 
-- **Description:** This project is a small desktop application I wrote for a friend, who needed an easy tool to send email with the same template but different recipient names in bulk to different email addresses. The formatting of the output is hard-coded for the specific template of said friend, but can easily be changed by adjusting the _"css"_ variable to whatever CSS the user prefers. The script uploaded on this repository handles one specific template, but multiple templates can be used in the Excel sheet. With a small tweak to the _for loop_ in the script logic, the script is also capable of handling multiple templates. In the future, this functionality might be added if said friend, me or someone else needs it. 
+- **Description:** This project is a small desktop application I wrote for a friend who needed an easy tool to send emails with the same template but different recipient names in bulk to separate email addresses. The output formatting is hard-coded for the specific template of the said friend but can change by adjusting the _"CSS"_ variable to whatever CSS the user prefers. The script uploaded to this repository handles one specific template, but the user can add different templates in the Excel sheet. The code can take multiple templates with a slight tweak to the _for loop_ in the logic. I might add this functionality if said friend, I, or someone else needs it in the future. 
 
--  **Features:** This application reads email address, name, subject and template input from an _.xlsx sheet_, along with text from a _.docx_  template. It converts the text to _HTML_ in order to make sure other elements such as tables are included in the email that is sent. The script also adds a small bit of custom _CSS_ in order to make sure the converted HTML is styled correctly.
+- **Features:** This application reads email address, name, subject and template input from a _.xlsx sheet_, along with text from a _.docx_ template. It converts the text to _HTML_ to ensure other elements, such as tables, are included in the sent email. The script also adds a tiny bit of custom _CSS_ to ensure the converted HTML styles are correct.
 
--  **How to use:** The script requires specific user security-related _.json_ files to be present in the same folder as the script or executable. Finding where to download these files from can be quite challenging if you don't know where to look. As an elaborate tutorial on how to download these files is outside of the scope of this document, a _"Tutorial"_ folder will be uploaded with both a written as a video walk-through of how to set the application up.
- 
--  **Technologies:** 
-		+ Python
-		+ HTML
-		+ CSS
-		+ ezgmail  
-		+ mammoth
-		+ openpyxl
+- ** How to use:** The script requires specific user security-related _.json_ files to be present in the same folder as the script or executable. Where to download them? I will upload a _"tutorial"_ folder with a video and walk-through of how to set the application up. I tested this application with Gmail/Google Workspace only. 
 
--  **Collaborators:** Sebastian Vuye (https://github.com/sebavuye) provided support on HTML and CSS as well as being a rubber duck for when I ran into issues.
--   **License:** MIT License Copyright (c) 2022 Christian Vuye
+- **Technologies:** + Python + HTML + CSS + ezgmail + mammoth + openpyxl
+
+- **Collaborators:** Sebastian Vuye (https://github.com/sebavuye) provided support on HTML and CSS and was a rubber duck for when I ran into issues.
+
+- **License:** MIT License Copyright (c) 2022 Christian Vuye
